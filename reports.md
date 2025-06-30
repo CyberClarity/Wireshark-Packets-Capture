@@ -10,7 +10,7 @@ Capture live network traffic using Wireshark, identify at least 3 protocols, and
 1. **DNS (Domain Name System)**  
    - Observed multiple DNS queries and responses.
    - Example:
-     - **Source IP:** 192.168.10.9  
+     - **Source IP:** 192.168.x.x
      - **Destination IP:** 202.134.152.6  
      - **Query:** google.com (A and AAAA records)
    - DNS is responsible for resolving domain names to IP addresses.
@@ -18,9 +18,9 @@ Capture live network traffic using Wireshark, identify at least 3 protocols, and
 2. **ARP (Address Resolution Protocol)**  
    - Observed several ARP announcements and requests.
    - Example:
-     - **Source:** optilinknetw_29:50:- (MAC: b4:-:-:29:50:-)  
+     - **Source:** optilinknetw_ xx:xx (MAC: xx:xx:xx:xx:xx:xx)  
      - **Destination:** Broadcast (ff:ff:ff:ff:ff:ff)  
-     - **Info:** Announcement for 192.168.10.1
+     - **Info:** Announcement for 192.168.x.x
    - ARP is used to map IP addresses to MAC addresses on the local network.
 
 3. **TCP (Transmission Control Protocol)**  
@@ -32,10 +32,10 @@ Capture live network traffic using Wireshark, identify at least 3 protocols, and
 ## 📂 Screenshots
 
 ### 📸 DNS Packets
-![DNS Filter](./Screenshot_2025-07-01_01_48_19.png)
+![DNS Filter](https://github.com/CyberClarity/Wireshark-Packets-Capture/blob/main/screenshot/ARP.png)
 
 ### 📸 ARP Packets
-![ARP Filter](./Screenshot_2025-07-01_01_48_50.png)
+![ARP Filter](https://github.com/CyberClarity/Wireshark-Packets-Capture/blob/main/screenshot/DNS.png))
 
 ---
 
